@@ -22,8 +22,8 @@ def draw_circles():
     global R1, R2
     R1 = float(entry_r1.get())
     R2 = float(entry_r2.get())
-    tsh = (R1 - R2)
-    rng = int(R2/6)
+    tsh = float(R1 - R2)
+    rng = float(R2/6)
     
     t.penup()
     t.goto(0, -R1)
